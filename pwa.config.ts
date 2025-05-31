@@ -2,11 +2,11 @@ import type { Config } from './types';
 
 export default {
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
+  name: 'Catatan Filsafat',
+  shortName: 'Filsafat',
+  description: 'Temukan esai, analisis, dan refleksi filosofis yang akan memperluas wawasan Anda tentang pertanyaan-pertanyaan mendasar dalam hidup.',
   direction: 'auto',
-  language: 'en-US',
+  language: 'id-ID',
   backgroundColor: '#fff',
   themeColor: '#fff',
   display: 'standalone',
@@ -17,16 +17,16 @@ export default {
   preferRelatedApplications: false,
   shortcuts: [
     {
-      name: 'Shortcut 1',
-      shortName: 'Shortcut 1',
-      description: 'Shortcut 1 description goes here...',
-      url: '/search/label/shortcut-1?utm_source=homescreen',
+      name: 'Esai Reflektif',
+      shortName: 'Esai Reflektif',
+      description: 'Esai Reflektif',
+      url: '/search/label/Esai Reflektif?utm_source=homescreen',
     },
     {
-      name: 'Shortcut 2',
-      shortName: 'Shortcut 2',
-      description: 'Shortcut 2 description goes here...',
-      url: '/search/label/shortcut-2?utm_source=homescreen',
+      name: 'Tokoh Filsuf',
+      shortName: 'Tokoh Filsuf',
+      description: 'Tokoh Filsuf',
+      url: '/search/label/Tokoh Filsuf?utm_source=homescreen',
     },
   ],
   pwa: {
@@ -39,5 +39,5 @@ export default {
     },
   },
   // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://hello-example.blogspot.com',
+  origin: 'https://www.onenews.my.id/',
 } satisfies Config;
